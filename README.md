@@ -69,7 +69,7 @@ D --> E
 C --> F
 E --> G
 F --> G
-```mermaid
+```
 
 ## 🚀 How to Run Locally
 
