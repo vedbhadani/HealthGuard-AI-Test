@@ -69,3 +69,35 @@ D --> E
 C --> F
 E --> G
 F --> G
+
+
+## 🚀 How to Run Locally
+
+```bash
+# 1️⃣ Clone the repository
+git clone <your-repository-link>
+cd diabetes-risk-ml
+
+# 2️⃣ Create virtual environment
+python3 -m venv .venv
+
+# 3️⃣ Activate virtual environment
+
+# Mac / Linux
+source .venv/bin/activate
+
+# Windows
+.venv\Scripts\activate
+
+# 4️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 5️⃣ Train the model
+python train.py
+
+# 6️⃣ Run the Streamlit application
+streamlit run app.py
+
+# 7️⃣ Open in browser
+http://localhost:8501
+
