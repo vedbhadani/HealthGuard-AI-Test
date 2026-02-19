@@ -70,34 +70,84 @@ C --> F
 E --> G
 F --> G
 ```
+---
+
+## 🗂️ Project Structure
+
+```
+HealthGuard-AI/
+│
+├── data/                   # Dataset files
+├── app.py                  # Streamlit application
+├── train.py                # Model training script
+├── requirements.txt        # Project dependencies
+├── ml_pipeline_uml.md      # UML diagram
+└── README.md
+```
+
+---
 
 ## 🚀 How to Run Locally
 
+### 1️⃣ Clone the Repository
+
 ```bash
-# 1️⃣ Clone the repository
-git clone <your-repository-link>
-cd diabetes-risk-ml
+git clone https://github.com/your-username/HealthGuard-AI.git
+cd HealthGuard-AI
+```
 
-# 2️⃣ Create virtual environment
+---
+
+### 2️⃣ Create Virtual Environment
+
+```bash
 python3 -m venv .venv
+```
 
-# 3️⃣ Activate virtual environment
+---
 
-# Mac / Linux
+### 3️⃣ Activate Virtual Environment
+
+**Mac / Linux**
+
+```bash
 source .venv/bin/activate
+```
 
-# Windows
+**Windows**
+
+```bash
 .venv\Scripts\activate
+```
 
-# 4️⃣ Install dependencies
+---
+
+### 4️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-# 5️⃣ Train the model
+---
+
+### 5️⃣ Train the Model
+
+```bash
 python train.py
+```
 
-# 6️⃣ Run the Streamlit application
+---
+
+### 6️⃣ Run the Application
+
+```bash
 streamlit run app.py
+```
 
-# 7️⃣ Open in browser
+---
+
+### 7️⃣ Open in Browser
+
+```
 http://localhost:8501
-
+```
